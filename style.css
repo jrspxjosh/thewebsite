@@ -1,0 +1,175 @@
+body{
+  background-image: url("hole.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200vh;
+  margin: 0;
+}
+@font-face {
+            font-family: "KGWhattheTeacherWants";
+            src: url('fonts/KGWhattheTeacherWants.ttf');
+            }
+  @font-face {
+  font-family: "KnowYourProduct";
+  src: url('fonts/knowyour.ttf');
+    }
+
+
+    .container {
+    	width: 80%;
+    	margin: 0 auto;
+    }
+
+    header {
+      background: #FFFFFF;
+      position: fixed;
+      width: 100%;
+    }
+
+    header::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .logo {
+      float: left;
+      padding: 10px 0;
+      src: url(lzlogo.png);
+      height: 45px;
+      width: 45px;
+
+    }
+
+    nav {
+      float: right;
+      font-family: "KGWhattheTeacherWants";
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-left: 45px;
+      padding-top: 23px;
+
+      position: relative;
+    }
+
+    nav a {
+      color: #444;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+
+
+
+#hero{
+  text-align: center;
+  font-family: "KnowYourProduct", Arial, Times, Helvetica;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 300px;
+
+}
+
+.leslie{
+  font-size: 40.0px;
+  color: #FFFFFF;
+  /* padding-bottom: 300px; */
+  height: 150px;
+}
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  transform: translateY(-60%) translateX(-50%);
+}
+
+h2{
+  color: #CCE8E8;
+  font-size: 50px;
+  font-family: "KGWhattheTeacherWants";
+}
+
+h3{
+  color:#313131;
+  font-size: 50px;
+  font-family: "KGWhattheTeacherWants";
+
+}
+h4{
+  color:#313131;
+  font-size: 40px;
+  font-family: "KGWhattheTeacherWants";
+
+}
+
+.sm{
+  height: 100px;
+  width: 100px;
+  padding-right: 45px;
+    margin: 0 auto;
+}
+.sp{
+    height: 200px;
+    width: 250px;
+    padding-right: 45px;
+      margin: 0 auto;
+
+}
+#donationtab{
+  display: inline-block;
+}
+
+.button {
+  background-color: #F0B8AC; /* Pink */
+  border: none;
+  color: white;
+  padding: 2px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+}
+
+.button1, .button2 {
+  border-radius: 12px;
+}
+
+
+#books{
+  display: inline-block;
+flex-grow: 1;
+max-width: 25%;
+padding: 10px;
+width: calc((25% - 10px) - 1px);
+}
+.bookstitle{
+  color: #00ad7d;
+display: block;
+font-size: 1.1rem;
+line-height: 1.5rem;
+}

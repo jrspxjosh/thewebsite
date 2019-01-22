@@ -1,0 +1,383 @@
+
+@font-face {
+                          font-family: "KGWhattheTeacherWants";
+                          src: url('../fonts/KGWhattheTeacherWants.ttf') format("truetype");
+                        }
+                        
+.media {
+  width               : 100%;
+  min-width           : 986px;
+  height              : 100vh;
+  min-height          : 1202px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.media .a201711beigeecrucreamtaupeu30d8u3099u30fcu30b7u3099u30e5u0431u0435u0436u0435u0432u044bu0438u0306bejucolourtexture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -350px;
+  height              : 2244px;
+  width               : 1058px;
+  position            : absolute;
+  margin              : 0;
+  left                : -75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.58;
+}
+.media .amazonreviewsforw {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .amazonreviewsforw .span1 {
+  
+}
+.media .amazonreviewsforw .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .amazonreviewsforw1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .amazonreviewsforw1 .span1 {
+  
+}
+.media .amazonreviewsforw1 .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .amazonreviewsforw1 .span3 {
+  
+}
+.media .awhendaddeploys {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 267px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(83, 99, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .awhendaddeploys .span1 {
+  
+}
+.media .awhendaddeploys .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .awhendaddeploys .span3 {
+  color               : rgba(72, 91, 215, 1.0);
+}
+.media .georgewbushpresi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 415px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .georgewbushpresi .span1 {
+  
+}
+.media .georgewbushpresi .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .georgewbushpresi .span3 {
+  
+}
+.media .todayshowinterview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 632px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .todayshowinterview .span1 {
+  
+}
+.media .todayshowinterview .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .bushcenterintervie {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 730px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .bushcenterintervie .span1 {
+  
+}
+.media .bushcenterintervie .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .lesliezimmermanspe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 857px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .lesliezimmermanspe .span1 {
+  
+}
+.media .lesliezimmermanspe .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .u201cwhenmomisdeploye {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1013px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .u201cwhenmomisdeploye .span1 {
+  
+}
+.media .u201cwhenmomisdeploye .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .u2018dreambigu2019reviewed {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1112px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .u2018dreambigu2019reviewed .span1 {
+  
+}
+.media .u2018dreambigu2019reviewed .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .roadstorecoverya {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 513px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(72, 91, 215, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.media .roadstorecoverya .span1 {
+  
+}
+.media .roadstorecoverya .span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.media .roadstorecoverya .span3 {
+  
+}
+.media .media1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 443px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "KGWhattheTeacherWants", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.8px;
+  line-height         : 43.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

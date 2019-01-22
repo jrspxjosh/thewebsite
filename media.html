@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/media.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="media"/>
+        <div class="media">
+            <div style="width: 986px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="./img/media-201711beige-ecru-cream-taupe-u30d8u3099u30fcu30b7u3099u30e5-u0431u0435u0436u0435u0432u044bu0438u0306-beju-colour-texture.png" class="a201711beigeecrucreamtaupeu30d8u3099u30fcu30b7u3099u30e5u0431u0435u0436u0435u0432u044bu0438u0306bejucolourtexture" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="amazonreviewsforw">
+                    <span class="span1">Amazon Reviews for When Dad Deploys:<br /></span><span class="span2">https://www.amazon.com/When-Dad-Deploys-Leslie-Zimmerman/dp/B07HPC7RQW</span>
+                </div>
+                <div class="amazonreviewsforw1">
+                    <span class="span1">Amazon Reviews for When Mom Deploys: <br /></span><span class="span2">https://www.amazon.com/When-Mom-Deploys-Leslie-Zimmerman/dp/B07J2WQHVG</span><span class="span3"><br /></span>
+                </div>
+                <div class="awhendaddeploys">
+                    <span class="span1">A'When Dad Deploys': Pleasant Grove vet publishes books for military families</span><span class="span2"><br />https://www.heraldextra.com/news/local/north/pleasant-grove/when<br />-dad-deploys-pleasant-grove-vet-publishes-books-for-military/<br />article_82b20886-6a1d-5cec-8562-91cfa0472352.html</span><span class="span3"><br /></span>
+                </div>
+                <div class="georgewbushpresi">
+                    <span class="span1">George W. Bush Presidential Center Biography<br /></span><span class="span2">https://www.bushcenter.org/people/leslie-zimmerman.html</span><span class="span3"><br /></span>
+                </div>
+                <div class="todayshowinterview">
+                    <span class="span1">Today Show Interview: Portraits of Courage and Dream Big<br /></span><span class="span2">https://youtu.be/qdM5AgMXzzY</span>
+                </div>
+                <div class="bushcenterintervie">
+                    <span class="span1">Bush Center Interview for American Airlines Airpower Foundation: My New Normal<br /></span><span class="span2">https://app.frame.io/r/c8b80cff-3da1-4786-b81a-a3e8f5b5b171?f=96195d63-9594-4c<br />c9-90f5-ff388aa20c47</span>
+                </div>
+                <div class="lesliezimmermanspe">
+                    <span class="span1">Leslie Zimmerman speaks at the 2018 National Constitution Center Liberty Medal <br />ceremony to honor George W. Bush and Laura Bush <br /></span><span class="span2">https://6abc.com/society/veterans-share-their-personal-stories-of-how<br />-george-w-and-laura-bush-have-improved-their-lives/4673813/</span>
+                </div>
+                <div class="u201cwhenmomisdeploye">
+                    <span class="span1">“When Mom is Deployed,” authored by UVU student, retired Army Sgt. Leslie Zimmerman<br /> </span><span class="span2">https://www.uvu.edu/news/newsarchive/november2018/zimmerman.html</span>
+                </div>
+                <div class="u2018dreambigu2019reviewed">
+                    <span class="span1">‘Dream Big’ Reviewed on Journey Monkeys<br /></span><span class="span2">http://journeymonkeys.com/2017/04/book-review-dream-big-by-leslie-zimmerman/</span>
+                </div>
+                <div class="roadstorecoverya">
+                    <span class="span1">Roads to Recovery: A Conversation with Sergeant Leslie Zimmerman, USA (HD.), <br />Sergeant Bryce Cole, USA (Ret.), and Master Sergeant Roque Urena, USAF (Ret.)<br /></span><span class="span2">https://www.bushcenter.org/catalyst/modern-military/roads-to-recovery.html</span><span class="span3"><br /></span>
+                </div>
+                <div class="media1">
+                    Media
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>

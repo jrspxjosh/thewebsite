@@ -1,9 +1,12 @@
+body{
+  background-image: url("./images/wood.png");
+}
 
 @font-face {
                           font-family: "KGWhattheTeacherWants";
                           src: url('../fonts/KGWhattheTeacherWants.ttf') format("truetype");
                         }
-                        
+
 .media {
   width               : 100%;
   min-width           : 986px;
@@ -60,7 +63,7 @@ div {
   line-height         : 29.0px;
 }
 .media .amazonreviewsforw .span1 {
-  
+
 }
 .media .amazonreviewsforw .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -83,13 +86,13 @@ div {
   line-height         : 29.0px;
 }
 .media .amazonreviewsforw1 .span1 {
-  
+
 }
 .media .amazonreviewsforw1 .span2 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .media .amazonreviewsforw1 .span3 {
-  
+
 }
 .media .awhendaddeploys {
   background-color    : rgba(255,255,255,0.0);
@@ -109,7 +112,7 @@ div {
   line-height         : 29.0px;
 }
 .media .awhendaddeploys .span1 {
-  
+
 }
 .media .awhendaddeploys .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -135,13 +138,13 @@ div {
   line-height         : 29.0px;
 }
 .media .georgewbushpresi .span1 {
-  
+
 }
 .media .georgewbushpresi .span2 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .media .georgewbushpresi .span3 {
-  
+
 }
 .media .todayshowinterview {
   background-color    : rgba(255,255,255,0.0);
@@ -161,7 +164,7 @@ div {
   line-height         : 29.0px;
 }
 .media .todayshowinterview .span1 {
-  
+
 }
 .media .todayshowinterview .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -184,7 +187,7 @@ div {
   line-height         : 29.0px;
 }
 .media .bushcenterintervie .span1 {
-  
+
 }
 .media .bushcenterintervie .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -207,7 +210,7 @@ div {
   line-height         : 29.0px;
 }
 .media .lesliezimmermanspe .span1 {
-  
+
 }
 .media .lesliezimmermanspe .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -230,7 +233,7 @@ div {
   line-height         : 29.0px;
 }
 .media .u201cwhenmomisdeploye .span1 {
-  
+
 }
 .media .u201cwhenmomisdeploye .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -253,7 +256,7 @@ div {
   line-height         : 29.0px;
 }
 .media .u2018dreambigu2019reviewed .span1 {
-  
+
 }
 .media .u2018dreambigu2019reviewed .span2 {
   color               : rgba(0, 0, 0, 1.0);
@@ -276,13 +279,13 @@ div {
   line-height         : 29.0px;
 }
 .media .roadstorecoverya .span1 {
-  
+
 }
 .media .roadstorecoverya .span2 {
   color               : rgba(0, 0, 0, 1.0);
 }
 .media .roadstorecoverya .span3 {
-  
+
 }
 .media .media1 {
   background-color    : rgba(255,255,255,0.0);
@@ -327,56 +330,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

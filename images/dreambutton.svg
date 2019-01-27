@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="55px" viewBox="0 0 222 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>dreambutton</title>
+    <desc>Created with Sketch.</desc>
+    <g id="oxygen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large-Screen" transform="translate(-192.000000, -1726.000000)">
+            <g id="Books" transform="translate(192.000000, 1105.000000)">
+                <g id="Group" transform="translate(0.000000, 440.000000)">
+                    <g id="dreambutton" transform="translate(0.000000, 181.000000)">
+                        <g id="Books-Button" fill="#F0B8AD" stroke="#979797">
+                            <rect id="Rectangle" x="0.5" y="0.5" width="221" height="54" rx="8"></rect>
+                        </g>
+                        <text id="Leslie-Zimmerman-DRE" font-family="KGWhattheTeacherWants, KG What the Teacher Wants" font-size="20" font-weight="normal" line-spacing="20">
+                            <tspan x="32" y="24" fill="#404040">Leslie Zimmerman</tspan>
+                            <tspan x="180.886719" y="26.1796875" fill="#404040"></tspan>
+                            <tspan x="34.7539062" y="46.1796875" font-size="14" fill="#787878">DREAM BIG</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

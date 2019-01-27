@@ -10,12 +10,14 @@
   <body>
 
 
-<header>
-  <div class="container">
-    <img src="lzlogo.png" class="logo">
+   <div position: relative; top:0px; left:0px; style="z-index:1">
+    <img id="paper" src="hole.png">
+
+    </div>
 
     <nav>
       <ul>
+        <li><a href="#" class="logo"><img src="lzlogo.png" class="logo"></a></li>
         <li><a href="index.html">HOME</a></li>
         <li><a href="donate.html">DONATE</a></li>
         <li><a href="#">BOOKS</a></li>
@@ -23,20 +25,17 @@
         <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
-  </div>
-</header>
-
 
 
 
 
   <div id="hero">
 
-        <div class="leslie"><h1>Leslie Zimmerman</h1></div>
-                      <!-- The video -->
+
         <video autoplay muted loop id="myVideo">
           <source src="video.mp4" type="video/mp4">
         </video>
+        <div class="leslie"><p>Leslie Zimmerman</p></div>
 
   </div>
 
@@ -57,7 +56,21 @@
               <h2>Books</h2>
       <div id="books">
 
+        <img src="images/dad.png" alt="book of when dad deploys">
+        <button class="op"><h4>Lezlie Zimmerman</h4>
+        <h5>When Dad Deploys</h5></button>
 
+        <img src="images/mom.png" alt="book of when dad deploys">
+        <button class="button button1"><h4>Lezlie Zimmerman</h4>
+        <h5>When Mom Deploys</h5></button>
+
+        <img src="images/dream.png" alt="book of when dad deploys">
+        <button class="button button1"><h4>Lezlie Zimmerman</h4>
+        <h5>Dream Big</h5></button>
+
+        <img src="images/zoo.png" alt="book of when dad deploys">
+        <button class="button button1"><h4>Lezlie Zimmerman</h4>
+        <h5>Coming 2019</h5></button>
 
 
       </div>
@@ -69,7 +82,7 @@
           <img src="images/watson.png" alt="Smiley face"  class="sp">
           <img src="images/Doc.png" alt="Smiley face" class="sp">
           <img src="images/blue.png" alt="Smiley face" class="sp">
-          <img src="images/oc.png" alt="Smiley face" class="sp">
+          <img src="images/oc.png" alt="Smiley face" width="279" height="191" class="sp">
         </div>
       </div>
 
@@ -97,5 +110,6 @@
         // Get the video
         var video = document.getElementById("myVideo");
                 </script>
+
   </body>
 </html>

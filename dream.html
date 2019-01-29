@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/dream.css" rel="stylesheet" type="text/css"/>
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="dream"/>
+        <div class="dream">
+            <div style="width: 375px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="./img/dad-background-2-copy.png" class="background2copy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/mom-path-20@2x.png" class="path20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="rating">
+                    <div class="capa1">
+                        <div class="star">
+                            <div class="rectangle52">
+                                <img anima-src="./img/dream-rectangle-52@2x.png" class="rectangle521" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="a12review">
+                    12 Review<br />
+                </div>
+                <div class="group2">
+                    <div class="navigationbar">
+                        <div class="rectangle41path16">
+                            <img anima-src="./img/mom-rectangle-41@2x.png" class="rectangle41" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <img anima-src="./img/dream-shape@2x.png" class="shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/dream-shape-1@2x.png" class="shape1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/dream-shape-2@2x.png" class="shape2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <img anima-src="./img/mom-bookmarks@2x.png" class="bookmarks" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/dream-coverimage-2-copy@2x.png" class="coverimage2copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="textcopy">
+                    <div class="dreambig">
+                        Dream Big
+                    </div>
+                    <div class="hardback">
+                        (Hardback)
+                    </div>
+                    <div class="info">
+                        This charming picture book follows the imaginations of young Tim Turtle after he was asked by his teacher, "What would you like to become someday?" His imagination carries him from one interesting career possibility to another. From being an astronaut to a cake decorator, or a seamstress to a veterinarian, his dreams are big, just like yours can be. Tim Turtle reminds us that we can be anything we set out to be, and that sometimes, it's the "right now" that matters most.
+                    </div>
+                    <div class="infocopy">
+                        Dream Big is the perfect book to help inspire kids, and it is adorable and fun as well. My 5-year-old nephew LOVES it and it makes him so happy! The illustrations are also wonderful. Recommended for every family!<br />Amanda Jennsen<br /><br />Inspiring...even for the biggest of kids (adults). Cute art that draws you into the story and storyline that makes you think about your own dreams.<br />Peter Gurr<br /><br />I bought two copies for my nephews. They love them! The story is super cute and shows how everything is a possibility for kids! I love that it stimulates their thinking. The book is great and will be treasured for years to come!<br />Emily Miller<br /><br /><br />
+                    </div>
+                    <div class="a1595">
+                        $15.95
+                    </div>
+                    <div class="aboutthebook">
+                        About The Book
+                    </div>
+                    <div class="reviews">
+                        Reviews
+                    </div>
+                </div>
+                <div class="buttonreadnowcopy">
+                    <img anima-src="./img/mom-button@2x.png" class="button" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="buynow">
+                        Buy Now
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>

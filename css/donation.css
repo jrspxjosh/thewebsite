@@ -7,7 +7,19 @@
   src: url('fonts/knowyour.ttf');
     }
 
-
+    .whatis {
+      width               : 100%;
+      min-width           : 634px;
+      height              : 100vh;
+      min-height          : 316px;
+      position            : relative;
+      overflow            : hidden;
+      margin              : 0px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color    : rgba(255, 255, 255, 1.0);
+      font-family: "KnowYourProduct";
+    }
 .donation-container {
 	height: 1000px;
 	font-family: "KGWhattheTeacherWants", 'Montserrat', sans-serif;
